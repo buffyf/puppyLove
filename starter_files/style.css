@@ -28,9 +28,7 @@ body {
 
 div header {
     background-color: #ff8523;
-    height: 100%;
-    width: 96%;
-    padding-left: 20px;
+    padding: 20px 20px 30px 20px;
 }
 
 .main_navigation a {
@@ -44,8 +42,9 @@ div header {
     vertical-align: 2em;
 }
 
-div {
+#page_content {
     background-color: white;
+    padding: 34px;
 }
 
 h2 {
@@ -65,17 +64,75 @@ li {
 }
 
 section {
-    border-bottom:
+    border-bottom: solid #eee;
+    padding: 40px;
+    border-width: thick;
 }
 
-table, thead, tr, td {
-    border: 2px solid #1fabe5;
+table {
+    width: 100%;
+}
+
+table, td {
+    border: 1px solid #1fabe5;
     border-collapse: collapse;
 }
 
-thead {
+tbody td {
+    padding: 10px;
+}
+
+tbody td img {
+    height: 50px;
+}
+
+thead td {
+    background-color: #1fabe5;
+    color: #fff;
+    border: 1px solid #046c97;
+    padding: 10px;
+}
+
+form {
+    border-style: solid #eee;
+    background-color: #eee;
+    border-radius: 1em;
+    padding: 30px;
+}
+
+.name {
+    border-style: solid #ff8523;
+    background-color: #ff8523;
+    border-radius: .5em;
+    padding: 30px;
+    color: white;
+}
+
+.city_container {
+    font-weight: bold;
+    padding: 30px 0 30px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+#bio {
+    border-style: solid;
+    border-color: #1fabe5;
+    width: 98%;
+    height: 200px;
+    margin: 10px 0 padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#submit_button {
+    border-style: solid;
+    border-color: #1fabe5;
     background-color: #1fabe5;
     color: white;
+    border-radius: .2em;
 }
 
 
