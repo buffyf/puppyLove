@@ -1,4 +1,4 @@
-    /*
+/*
 font info:
     family - Helvetica, Arial, sans-serif
     line-height - 1.6
@@ -12,37 +12,71 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
-    
-    * {
-        font-family: Helvetica, Arial, sans-serf;
-        line-height: 1.6em;
-    }
-    
-    div header {
-        background-color: #ff8523;
-        height: 100%;
-        width: 100%;
-    }
-    
-    .main_navigation a {
-        color: white;
-        border-style: solid;
-        border-color: white;
-        border-radius: 5px;
-        border-width: .05em;
-        text-decoration: none;
-        padding: .5em 1.5em;
-        vertical-align: 2em;
-    }
-    
-    h2 {
-        color: #1fabe5;
-    }
-    
-    h3 {
-        color: #1fabe5;
-    }
-    
-    p a {
-        color: #1fabe5;
-    }
+
+* {
+    font-family: Helvetica, Arial, sans-serf;
+    line-height: 1.6em;
+}
+
+body {
+    background-image: url("img/bg.jpg");
+    border-style: solid;
+    border-color: #ffd24a;
+    border-width: .1em;
+    margin: .5em 3em;
+}
+
+div header {
+    background-color: #ff8523;
+    height: 100%;
+    width: 96%;
+    padding-left: 20px;
+}
+
+.main_navigation a {
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: .05em;
+    text-decoration: none;
+    padding: .5em 1.5em;
+    vertical-align: 2em;
+}
+
+div {
+    background-color: white;
+}
+
+h2 {
+    color: #1fabe5;
+}
+
+h3 {
+    color: #1fabe5;
+}
+
+p a {
+    color: #1fabe5;
+}
+
+li {
+    font-weight: bold;
+}
+
+section {
+    border-bottom:
+}
+
+table, thead, tr, td {
+    border: 2px solid #1fabe5;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1fabe5;
+    color: white;
+}
+
+
+}
