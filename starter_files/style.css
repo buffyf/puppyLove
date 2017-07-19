@@ -1,4 +1,4 @@
-/*
+    /*
 font info:
     family - Helvetica, Arial, sans-serif
     line-height - 1.6
@@ -12,3 +12,37 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+    
+    * {
+        font-family: Helvetica, Arial, sans-serf;
+        line-height: 1.6em;
+    }
+    
+    div header {
+        background-color: #ff8523;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .main_navigation a {
+        color: white;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5px;
+        border-width: .05em;
+        text-decoration: none;
+        padding: .5em 1.5em;
+        vertical-align: 2em;
+    }
+    
+    h2 {
+        color: #1fabe5;
+    }
+    
+    h3 {
+        color: #1fabe5;
+    }
+    
+    p a {
+        color: #1fabe5;
+    }
