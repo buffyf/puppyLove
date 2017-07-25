@@ -20,15 +20,21 @@ colors:
 
 body {
     background-image: url("img/bg.jpg");
+    margin: 0;
+}
+
+.body-wrapper {
+    max-width: auto;
+    margin: 15px 100px;
     border-style: solid;
     border-color: #ffd24a;
-    border-width: .1em;
-    margin: .5em 3em;
+    border-radius: 5px;
+    border-width: .2rem;
 }
 
 div header {
     background-color: #ff8523;
-    padding: 20px 20px 30px 20px;
+    padding: 10px 10px 10px 15px;
 }
 
 .main_navigation a {
@@ -44,7 +50,7 @@ div header {
 
 #page_content {
     background-color: white;
-    padding: 34px;
+    padding: 35px 15px 0 15px;
 }
 
 h2 {
@@ -61,11 +67,13 @@ p a {
 
 li {
     font-weight: bold;
+    line-height: 1.8rem;
+    margin-left: -20px;
 }
 
 section {
     border-bottom: solid #eee;
-    padding: 40px;
+    padding-bottom: 40px;
     border-width: thick;
 }
 
@@ -104,7 +112,7 @@ form {
     border-style: solid #ff8523;
     background-color: #ff8523;
     border-radius: .5em;
-    padding: 30px;
+    padding: 18px;
     color: white;
 }
 
@@ -115,6 +123,16 @@ form {
 
 label {
     font-weight: bold;
+    padding: 0 2px;
+}
+
+.name input {
+    width: 370px;
+    height: 40px;
+}
+
+.name label {
+    padding: 0 10px 0 0;
 }
 
 #bio {
@@ -122,7 +140,8 @@ label {
     border-color: #1fabe5;
     width: 98%;
     height: 200px;
-    margin: 10px 0 padding: 10px;
+    margin: 20px 0 10px 0;
+    padding: 10px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -133,7 +152,6 @@ label {
     background-color: #1fabe5;
     color: white;
     border-radius: .2em;
-}
-
-
+    padding: 7px 19px;
+    text-transform: uppercase;
 }
